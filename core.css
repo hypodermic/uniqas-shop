@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	float: left;
+}
+header img{
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+body{
+	background: pink;
+	font-family: 'Quicksand', sans-serif;
+	
+	min-height:100%; 
+    position:relative; 
+    padding-bottom:[footer-height] 
+}
+#content{
+	margin: 30px;
+	padding: 50px;
+	
+}
+nav ul{
+	margin:-90px 0px 0px 0px;
+    padding:0;
+    text-align:center;
+}
+nav ul li{
+	list-style: none;
+	display: inline;
+}
+nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 15px;
+	color: purple;
+}
+footer {
+	width: 100%;
+	position:absolute;
+	
+	left: 0 ; right: 0; bottom: 0; 
+    height:[footer-height] 
+}
+footer ul {
+
+	text-align: center;
+}
+footer ul li{
+	list-style: none;
+	display: inline;
+}
+footer ul li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 15px;
+	color: purple;
+}
+#contact{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+	margin-bottom:40px;
+	margin-top:100px;
+	padding:140px 40px 40px 40px;
+	color:white;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	 text-shadow: 2px 2px purple;
+}
+#comprar {
+	
+
+	margin-bottom:40px;
+	margin-top:100px;
+	padding:140px 40px 40px 40px;
+	text-align:center;
+	
+}
+#comprar h1, h2{
+	
+	
+}
+.button {
+	
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px 29px 12px 29px;
+    border: 0px solid #a12727;
+    border-radius: 9px;
+    background: #d600cf;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d600cf), to(#732699));
+    background: -moz-linear-gradient(top, #d600cf, #732699);
+    background: linear-gradient(to bottom, #d600cf, #732699);
+    text-shadow: #000000 1px 1px 4px;
+    font: normal normal bold 30px Quicksand;
+    color: #ffffff;
+    text-decoration: none;
+	cursor: pointer;
+}
+.button:hover,
+.button:focus {
+    background: #ff00f8;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff00f8), to(#8a2eb8));
+    background: -moz-linear-gradient(top, #ff00f8, #8a2eb8);
+    background: linear-gradient(to bottom, #ff00f8, #8a2eb8);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #80007c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#80007c), to(#732699));
+    background: -moz-linear-gradient(top, #80007c, #732699);
+    background: linear-gradient(to bottom, #80007c, #732699);
+}
